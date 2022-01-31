@@ -1,5 +1,6 @@
 # Modelowanie procesu recenzji w czasopismach naukowych
 Opiekun: dr Maciej J. Mrowiński
+
 Autor: Nika Jurczuk
 #### Wymagania potrzebne do uruchomienia programu:
 - ######  Python 3.9
@@ -16,6 +17,7 @@ Autor: Nika Jurczuk
 Niniejszy kod pozwala na zaimplementowanie modelu recenzji naukowej *peer review* oraz przeprowadzenie symulacji dotyczących zachowania tego modelu. Wyniki przedstawiono w postaci wykresów oraz histogramów. 
 
 Kod podzielony jest na 3 pliki. 
+
 Plik `random.py` przeprowadza symulację wprowadzając do układu recenzentów niewiarygodnych. Wyznaczane są zasoby agentów po jednej symulacji, a także parametry opisujące układ:
 - wskaźnik Giniego,
 - stronniczość oceny,

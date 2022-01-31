@@ -18,13 +18,13 @@ Niniejszy kod pozwala na zaimplementowanie modelu recenzji naukowej *peer review
 
 Kod podzielony jest na 3 pliki. 
 
-Plik `random.py` przeprowadza symulację wprowadzając do układu recenzentów niewiarygodnych. Wyznaczane są zasoby agentów po jednej symulacji, a także parametry opisujące układ:
+Plik `randoms.py` przeprowadza symulację wprowadzając do układu recenzentów niewiarygodnych. Wyznaczane są zasoby agentów po jednej symulacji, a także parametry opisujące układ:
 - wskaźnik Giniego,
 - stronniczość oceny,
 - liczba autorów, którzy nie opublikowali żadnego artykułu,
 - różnica między zasobami agenta a średnią zasobów.
 
-Plik `cheater.py` przeprowadza identyczną symulację wprowadzając do układu recenzentów nieuczciwych.
+Plik `cheaters.py` przeprowadza identyczną symulację wprowadzając do układu recenzentów nieuczciwych.
 ### Parametry, testowane w trakcie testowania modelu:
 - odchylenie standardowe przy przypisywaniu jakości artykułowi
 - parametr skalujący *a*

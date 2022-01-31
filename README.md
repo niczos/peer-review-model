@@ -32,6 +32,6 @@ Plik `cheaters.py` przeprowadza identyczną symulację wprowadzając do układu 
 - stałe zasoby dodawane po każdym kroku każdemy agentowi *R+*
 - sposób dodawania zasobów po udanej publikacji
 
-Sposób dodawania zasobów po udanej publikacji można zmienić w funkcji `update_R`, gdzie w miejscu dodawania zasobów pomnożonych przez parametr *m* można ustawić dowolną liczbę. Resztę powyższych parametrów można modyfikować w drugiej komórce kodu.
+Sposób dodawania zasobów po udanej publikacji można zmienić w funkcji `update_R()`, gdzie w miejscu dodawania zasobów pomnożonych przez parametr *m* można ustawić dowolną liczbę. Resztę powyższych parametrów można modyfikować w drugiej komórce kodu.
 
 Plik `scale_function.py` przedstawia funkcję skalującą zasoby po udanej publikacji w zależności od parametru *a*.
